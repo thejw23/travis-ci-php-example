@@ -2,7 +2,7 @@
 
 class HelloWorld
 {
-	$storage = NULL;
+	private $storage = NULL;
 	
     public function __construct()
     {
