@@ -12,6 +12,8 @@ Here is a sample status icon showing the state of the master branch.
 
 [![Scrutinizer](https://scrutinizer-ci.com/g/thejw23/travis-ci-php-example/badges/quality-score.png?s=d90594e35526b8afc2b7a645798ec75913fecfd7)](https://scrutinizer-ci.com/g/thejw23/travis-ci-php-example/)
 
+[![Code Coverage](https://scrutinizer-ci.com/g/thejw23/travis-ci-php-example/badges/coverage.png?s=b5a8646de3c568f9854d1ac795541a455ea300fa)](https://scrutinizer-ci.com/g/thejw23/travis-ci-php-example/)
+
 In order to run this project just fork it on github.com and then [enable](http://about.travis-ci.org/docs/user/getting-started/)
 your fork on your [travis-ci profile](http://travis-ci.org/profile). Every push will then trigger a new build on Travis CI.
 
