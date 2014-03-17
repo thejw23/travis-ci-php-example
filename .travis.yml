@@ -13,7 +13,7 @@ php:
 #env:
 
 # execute any number of scripts before the test run, custom env's are available as variables
-# before_script:
+before_script:
  - composer self-update
  - composer install --no-progress
 # - git submodule update --init --recursive
