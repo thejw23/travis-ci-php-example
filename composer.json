@@ -5,23 +5,23 @@
     "license" : "MIT",
     "authors" : [
         {
-            "name" : "thejw23",
+            "name" : "thejw23"
         }
     ],
     "name" : "travis-ci-php-example",
     "require" : {
-        "php" : ">=5.3",
+        "php" : ">=5.3"
     },
     "require-dev" : {
         "behat/behat" : "~2.5",
-        "phpunit/phpunit" : "~3.7"       
+        "phpunit/phpunit" : "~3.7"
     },
     "config" : {
         "bin-dir" : "bin/"
     },
     "autoload" : {
         "psr-4" : {
-            "Example\\" : "src/",
+            "Example\\" : "src/"
         }
     }
 
