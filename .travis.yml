@@ -22,8 +22,10 @@ before_script:
 # use the $DB env variable to determine the phpunit.xml to use
 script: 
   - ./bin/behat --config behat.yml
-  - phpunit --coverage-clover=coverage.clover
+  - phpunit
+#  - phpunit --coverage-clover=coverage.clover
   
 after_script:
  - wget https://scrutinizer-ci.com/ocular.phar
- - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+ - php ocular.phar code-coverage:upload --format=php-clover clover.xml
+# - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
