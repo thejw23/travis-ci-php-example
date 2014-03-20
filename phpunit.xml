@@ -6,6 +6,9 @@
             <directory>./Tests/</directory>
         </testsuite>
     </testsuites>   
+    <logging>
+        <log type="coverage-clover" target="./clover.xml"/>
+    </logging>
     <filter>
         <whitelist>
             <directory>./</directory>
